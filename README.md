@@ -1,5 +1,23 @@
 # wiivv
 Wiivv Coding challenge
+
+Two API's are consumed in the challenge
+1) Etsy: https://openapi.etsy.com/v2/listings/active
+2) Currency.com: http://www.apilayer.net/api/live
+
+
+How to run the project: 
+1) Download repo 
+2) Open application.properties file under src/main/resources and replace values for 
+    etsy.api.key
+    currency.api_key
+3) After updating the values, 
+    Go to the location of the project --> cd wiivv 
+    Run: mvn clean install --> Make sure that the build is successfull
+4) After mvn clean install is successfull, 
+    Run: mvn exec:java  --> this would start the application and then use the API mentioned below to get the response. 
+  
+
 This project aims at hitting two APIs and return a list of products 
 
 1) Etsy to get the popular listing 
