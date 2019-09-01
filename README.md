@@ -9,13 +9,14 @@ Two API's are consumed in the challenge
 How to run the project: 
 1) Download repo 
 2) Open application.properties file under src/main/resources and replace values for 
-    etsy.api.key
-    currency.api_key
+    * etsy.api.key
+    * currency.api_key
 3) After updating the values, 
-    Go to the location of the project --> cd wiivv 
-    Run: mvn clean install --> Make sure that the build is successfull
-4) After mvn clean install is successfull, 
-    Run: mvn exec:java  --> this would start the application and then use the API mentioned below to get the response. 
+    * Go to the location of the project --> cd wiivv 
+    * Run: mvn clean install --> Make sure that the build is successfull
+4) After mvn clean install is successfull, there are two ways to run the project 
+    * Run: mvn exec:java  --> this would start the application and then use the API mentioned below to get the response. 
+    * Run: java -jar target/wiivv-0.0.1-SNAPSHOT.jar --> this would start the application and then use the API mentioned below to get the response. 
   
 
 This project aims at hitting two APIs and return a list of products 
