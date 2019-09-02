@@ -24,6 +24,11 @@ This project aims at hitting two APIs and return a list of products
 1) Etsy to get the popular listing 
 2) Currency api to fetch currency exchange rates (Currency rates only change hourly - fetch only after an hour) 
 
+TODO:
+1) Authentication(token-based) and authorization (permissions) 
+2) Logging the application
+3) Comments in the code 
+4) Test cases 
 
 
 API 
